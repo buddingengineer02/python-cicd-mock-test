@@ -1,6 +1,9 @@
-push:
-  branches:
-    - main
+name: Python Test Workflow
+
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   test:
